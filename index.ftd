@@ -4,9 +4,10 @@
 -- ds.page: Business Card
 
 
--- front.front: John Doe
+-- front.front: 
+name: Rajan
 title: Software Developer
-company: John Doe Pvt. Ltd.
+company: tryFith Pvt. Ltd.
 logo: $assets.files.assets.logo.svg
 contact-1: +91 12345 99999
 contact-2: +91 12345 88888

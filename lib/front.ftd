@@ -8,6 +8,7 @@ optional string contact-2:
 optional string website-1:
 optional string website-2:
 optional string location:
+optional string link: /resume
 
 
 -- ftd.row:
@@ -21,11 +22,12 @@ border-color: $inherited.colors.border
 -- ftd.column:
 width.fixed.percent: 50
 padding-vertical.px: 40
-padding-left.px: 40
+padding-left.px: 100
 
 -- ftd.text: $front.name
 color: $inherited.colors.text-strong
 role: $inherited.types.heading-medium
+link: $front.link
 
 -- ftd.text: $front.title
 color: $inherited.colors.text
@@ -138,7 +140,7 @@ margin-bottom.px: 20
 
 
 -- ftd.background-image logo-bg:
-src: $assets.files.assets.logo-bg.svg
+src: $assets.files.assets.pomegranate image
 size: contain
 position: right
 repeat: no-repeat
